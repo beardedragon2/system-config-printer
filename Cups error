@@ -1,0 +1,25 @@
+Here is the troubleshooting.txt:
+
+Page 1 (Scheduler not running?):
+{'cups_connection_failure': False}
+Page 2 (Choose printer):
+{'cups_dest': <cups.Dest EPSON_ET_2650_Series>,
+ 'cups_instance': None,
+ 'cups_queue': u'EPSON_ET_2650_Series',
+ 'cups_queue_listed': True}
+Page 3 (Check printer sanity):
+{'is_cups_class': True}
+Page 4 (Local or remote?):
+{'printer_is_remote': False}
+Page 5 (Print test page):
+{'test_page_attempted': '20/Aug/2019:19:37:51 +0000',
+ 'test_page_job_status': [],
+ 'test_page_submit_failure': (1030, u'client-error-not-found'),
+ 'test_page_successful': False}
+Page 6 (Locale issues):
+{'printer_page_size': None,
+ 'system_locale_lang': 'en_US',
+ 'user_locale_ctype': 'en_US',
+ 'user_locale_messages': 'en_US'}
+ 
+ Please help, thanks in advance.
